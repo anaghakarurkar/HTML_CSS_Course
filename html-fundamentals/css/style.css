@@ -55,3 +55,12 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+
+/* Example of psudo classes */
+/* li:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+li:nth-child(even) {
+  background-color: #f0f0f0;
+} */
