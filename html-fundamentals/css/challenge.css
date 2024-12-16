@@ -1,0 +1,60 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+article {
+  border: 0.8mm solid black;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  background-color: ghostwhite;
+  font-size: 10pt;
+}
+
+h3 {
+  font-size: 9pt;
+}
+
+.cart {
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+.shipping {
+  text-transform: uppercase;
+  color: gray;
+  font-size: 6pt;
+}
+
+.cost {
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: square;
+}
