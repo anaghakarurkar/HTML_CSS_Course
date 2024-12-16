@@ -1,6 +1,8 @@
 * {
   font-family: sans-serif;
   color: #444;
+  margin: 0px;
+  padding: 0px;
 }
 
 .header {
@@ -11,6 +13,7 @@ h1 {
   font-size: 25px;
   text-align: center;
 }
+
 h1,
 h2,
 h3 {
@@ -19,23 +22,30 @@ h3 {
 
 .main-header {
   background-color: #f7f7f7;
-  padding: 10px 20px 20px 20px;
+  padding: 20px 40px;
   border-radius: 8px;
   text-align: center;
+  margin-bottom: 60px;
 }
 
-article {
-  line-height: 1.5;
+.post-header {
+  margin-bottom: 40px;
 }
 
 h2 {
   font-size: 22px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
+h4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
 #copyright {
   font-size: 12px;
   font-weight: lighter;
@@ -50,12 +60,32 @@ h3 {
   list-style: none;
 }
 
+article {
+  margin-bottom: 60px;
+}
+
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
 }
 
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
 /* Example of psudo classes */
 /* li:nth-child(odd) {
   background-color: #f7f7f7;
