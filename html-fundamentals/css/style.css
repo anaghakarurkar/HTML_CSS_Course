@@ -64,3 +64,39 @@ aside {
 li:nth-child(even) {
   background-color: #f0f0f0;
 } */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* Practicing selector priorities to solve conflicts between the selectors
+#header {
+  color: brown;
+}
+
+.header {
+  color: chartreuse;
+}
+
+.quest {
+  color: blueviolet;
+}
+
+h1 {
+  color: yellow !important;
+}
+*/
