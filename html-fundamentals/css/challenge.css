@@ -14,6 +14,7 @@ body {
   border: 3px solid black;
   width: 825px;
   margin: 50px auto;
+  position: relative;
 }
 
 .product-title {
@@ -30,7 +31,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 5px;
 }
 
@@ -86,4 +87,47 @@ button:hover {
 
 p {
   font-size: 12px;
+}
+
+.sale {
+  background-color: #ff0000;
+  font-size: 8px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  padding: 3px 5px;
+}
+
+.colors {
+  position: relative;
+}
+
+.box {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  margin: 20px 0px 0px 5px;
+}
+.black {
+  background-color: #000;
+  margin-left: 0;
+}
+.grey {
+  background-color: #808080;
+}
+.red {
+  background-color: #ff0000;
+}
+.yellow {
+  background-color: #ffff00;
+}
+.green {
+  background-color: #adff2f;
+}
+.brown {
+  background-color: #a52a2a;
 }
