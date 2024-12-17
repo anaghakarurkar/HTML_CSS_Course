@@ -5,10 +5,26 @@
   padding: 0px;
 }
 
+/*Main sections of the page*/
 .container {
   width: 800px;
   margin: 0 auto;
 }
+
+article {
+  margin-bottom: 60px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  width: 500px;
+}
+
+/*All small elements*/
+
 .header {
   text-transform: uppercase;
 }
@@ -54,6 +70,7 @@ h4 {
 #copyright {
   font-size: 12px;
   font-weight: lighter;
+  text-align: center;
 }
 
 #author {
@@ -64,19 +81,6 @@ h4 {
 .related {
   list-style: none;
 }
-
-article {
-  margin-bottom: 60px;
-}
-
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
-}
-
 p {
   margin-bottom: 15px;
   line-height: 1.5;
@@ -92,14 +96,6 @@ ol {
   margin-left: 50px;
   margin-bottom: 20px;
 }
-/* Example of psudo classes */
-/* li:nth-child(odd) {
-  background-color: #f7f7f7;
-}
-
-li:nth-child(even) {
-  background-color: #f0f0f0;
-} */
 
 a:link {
   color: #1098ad;
@@ -119,11 +115,29 @@ a:active {
   font-style: italic;
 }
 
+nav a:link {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
 .related-posts {
   border-color: lightgray;
   padding: 5px;
   border-style: solid;
   border-width: 1px;
+}
+
+.related a:link {
+  display: block;
+}
+
+.related li {
+  margin-bottom: 10px;
 }
 
 .post-image {
@@ -146,3 +160,12 @@ h1 {
   color: yellow !important;
 }
 */
+
+/* Example of psudo classes */
+/* li:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+li:nth-child(even) {
+  background-color: #f0f0f0;
+} */
