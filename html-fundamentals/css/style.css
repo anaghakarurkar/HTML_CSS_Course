@@ -10,7 +10,7 @@ body {
   position: relative;
 }
 .container {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -18,13 +18,14 @@ article {
   margin-bottom: 60px;
   display: flex;
   align-items: flex-start;
-  gap: 50px;
+  gap: 75px;
+  flex: 1;
 }
 
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
-  width: 300px;
+  flex: 0 0 300px;
 }
 
 /*All small elements*/
