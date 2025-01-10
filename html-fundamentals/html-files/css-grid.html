@@ -67,13 +67,26 @@
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
-        margin: 100px;
+        margin: 40px;
 
-        width: 1000px;
-        height: 600px;
+        width: 700px;
+        height: 500px;
 
         /* CSS GRID */
-        display: none;
+        display: grid;
+        grid-template-columns: 150px 250px 150px;
+        grid-template-rows: 200px 200px;
+        gap: 20px;
+        justify-content: center;
+        align-content: center;
+
+        justify-items: center;
+        align-items: center;
+      }
+
+      .el--3 {
+        justify-self: left;
+        align-self: end;
       }
     </style>
   </head>
