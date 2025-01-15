@@ -62,5 +62,5 @@ Here are some useful links to learn more about HTML and CSS:
 - [CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## Acknowledgments
-- Special thanks to Jonas Schmedtmann fo a really good course on Udemy to perfect HTML and CSS.
+- Special thanks to Jonas Schmedtmann for a really good course on Udemy to perfect HTML and CSS.
 
