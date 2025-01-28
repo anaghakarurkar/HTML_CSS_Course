@@ -13,7 +13,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 }
 
 body {
@@ -25,11 +24,38 @@ nav {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  padding-top: 32px;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(../Images/hero.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.header-container {
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-container-inner {
+  width: 50%;
 }
 
 h1 {
   font-size: 52px;
   margin-bottom: 32px;
+  line-height: 1.05;
 }
 
 p {
@@ -38,22 +64,9 @@ p {
   margin-bottom: 48px;
 }
 
-header {
-  background-color: orangered;
-  height: 100vh;
-  /* width: 80%;
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 100px; */
-}
-
 .container {
   margin: 0 auto;
-  width: 800px;
-  ba
+  width: 1200px;
 }
 
 .btn:link,
