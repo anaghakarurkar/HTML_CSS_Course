@@ -58,7 +58,7 @@ Here is a list of CSS concepts covered in this repository:
 
 - Responsive Design
 
-## List of Components created
+## List of Components / Layouts created
 
 - Accordion: Accordion component can make your content easily collapsible and expandable.
 
@@ -71,6 +71,8 @@ Here is a list of CSS concepts covered in this repository:
 - Hero page Layout: A hero page layout gives the landing page of your website a powerful visual impression. It frequently includes a call-to-action button, a headline, some text, and a sizable, attractive image or video.
 
 - App Layout
+
+- Chair Shop Page Layout
 
 ## Resources
 
